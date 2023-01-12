@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323">
+	<link rel="stylesheet" href="wedding_style.css">
+
+	<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', (event) => {
+  			new cursoreffects.fairyDustCursor({colors: ["cyan", "magenta", "lime", 'gold']});
+		});
+	</script>
+
+
+	<title>gooby wedding</title>
+	<audio id='song' autoplay hidden>
+  		<source src="sade.mp3" type="audio/mpeg">
+	</audio>
+	<script type="text/javascript">
+		var togglePlay = function() {
+			player = document.getElementById('song')
+		    if (player.paused) {
+		        player.play();
+		    }
+		    else {
+		        player.pause();
+		    }
+		}
+
+		var reveal = function(){
+			togglePlay();
+			document.getElementById("reveal").style.display = "block";
+			console.log('ham')
+			}
+	</script>
+</head>
+<body>
+	<div class='ascii-spiral'>
+		<pre class="rainbow-text" onclick="reveal()">
+	   e__,aaPPPPPPPPaa,__
+         ,adP"""'          `""Yb,_
+      ,adP'                     `"Yb,
+    ,dP'     ,aadPP"""""YYba,_     `"Y,
+   ,P'    ,aP"'            `""Ya,     "Y,
+  ,P'    aP'     _________     `"Ya    `Yb,
+ ,P'    d"    ,adP""""""""Yba,    `Y,    "Y,
+,d'   ,d'   ,dP"            `Yb,   `Y,    `Y,
+d'   ,d'   ,d'    ,dP""Yb,    `Y,   `Y,    `b
+8    d'    d'   ,d"      "b,   `Y,   `8,    Y,
+8    8     8    d'    _   `Y,   `8    `8    `b
+8    8     8    8     8    `8    8     8     8
+8    Y,    Y,   `b, ,aP     P    8    ,P     8
+I,   `Y,   `Ya    """"     d'   ,P    d"    ,P
+`Y,   `8,    `Ya         ,8"   ,P'   ,P'    d'
+ `Y,   `Ya,    `Ya,,__,,d"'   ,P'   ,P"    ,P
+  `Y,    `Ya,     `""""'     ,P'   ,d"    ,P'
+   `Yb,    `"Ya,_          ,d"    ,P'    ,P'
+     `Yb,      ""YbaaaaaadP"     ,P'    ,P'
+       `Yba,                   ,d'    ,dP'
+          `"Yba,__       __,adP"     dP"
+              `"""""""""""""'
+    	</pre>
+    </div>
+	<div id='reveal'>
+		<div class='header'>
+			<h1>amzeah <span style='font-size: x-large'>and</span> gordon</h1>
+
+			<h2 class='pink blink'>are getting married 🥳</h2>
+			<br>
+		</div>
+		<img class="drop-shadow center" src="sittinginthebackofacar.jpg">
+		<div class='details'>
+			<h2 class='pink'><span style="border-style: dashed;">&nbsp;save the date...&nbsp;</span></h2>
+			<h3><p>August 5th 2023</p></h3>
+			<h3><p>Goobyland, Seward Park, Seattle, WA</p></h3>
+			<br>
+			<h4><p>formal invitation to come! 📯</p></h4>
+		</div>
+
+		<div class='center ascii-desert'>
+			<pre class='rainbow-text'>
+    .    _    +     .  ______   .          .
+ (      /|\      .    |      \      .   +
+     . |||||     _    | |   | | ||         .
+.      |||||    | |  _| | | | |_||    .
+   /\  ||||| .  | | |   | |      |       .
+__||||_|||||____| |_|_____________\__________
+. |||| |||||  /\   _____      _____  .   .
+  |||| ||||| ||||   .   .  .         ________
+ . \|`-'|||| ||||    __________       .    .
+    \__ |||| ||||      .          .     .
+ __    ||||`-'|||  .       .    __________
+.    . |||| ___/  ___________             .
+   . _ ||||| . _               .   _________
+_   ___|||||__  _ \\--//    .          _
+     _ `---'    .)=\oo|=(.   _   .   .    .
+_  ^      .  -    . \.|
+			</pre>
+		</div>
+	</div>
+</body>
+</html>

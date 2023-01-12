@@ -1,0 +1,106 @@
+keyframes blink {
+    0% { text-shadow: 0 0 30px cyan; }
+    50% { text-shadow: none; }
+    100% { text-shadow: 0 0 30px cyan; }
+}
+
+@-webkit-keyframes blink {
+    0% { text-shadow: 0 0 30px cyan; }
+    50% { text-shadow: 0 0 0; }
+    100% { text-shadow: 0 0 30px cyan; }
+}
+
+.blink {
+    -webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    -ms-animation: blink 0.5s linear infinite;
+    -o-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+}
+
+body {
+	background-color: black;
+	font-family: "Audiowide", sans-serif;
+
+}
+h1 {
+	color: cyan;
+	text-align: center;
+	font-size: xxx-large;
+	text-shadow: 2px 2px 9px magenta;
+}
+
+h2 {
+	color: lime;
+	font-size: xx-large;
+}
+
+h3 {
+	color: lime;
+	font-size: x-large;
+}
+
+h4 {
+	color: cyan;
+}
+p {
+	text-align: center;
+	size: large;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header {
+	margin-bottom: 50px;
+}
+
+.pink {
+	color: magenta;
+	text-align: center;
+}
+
+.ascii-spiral {
+	width: 360px;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 50px;
+}
+
+.ascii-desert {
+	width: 360px;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 50px;
+ 	margin-bottom: 20px;
+}
+
+.rainbow-text {
+		background-image: linear-gradient(to left, violet, indigo, cyan, lime, yellow, magenta);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+
+.details {
+	margin-top: 100px;
+	margin-bottom: 75px;
+}
+
+.drop-shadow {
+	filter: drop-shadow(0 0mm 10mm rgb(160, 0, 210));
+}
+
+#reveal {
+	display: none;
+}
+
+.spiral {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
