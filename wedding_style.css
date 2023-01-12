@@ -49,10 +49,18 @@ p {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 350px;
+	width: 60%;
 }
 
 .header {
@@ -70,6 +78,7 @@ p {
 	margin-left: auto;
  	margin-right: auto;
  	margin-top: 50px;
+	cursor: pointer;
 }
 
 .ascii-desert {
