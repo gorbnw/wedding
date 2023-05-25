@@ -100,9 +100,29 @@ li {
 	  width: 50%;
 }
 
+#haystack {
+  max-width: 35%;
+  padding: 40px;
+}
+
+#lani {
+  max-width: 30%;
+  padding: 40px;
+}
+
 @media (max-width: 800px) {
   .center {
     width: 300px;
+  }
+
+  #haystack {
+    max-width: 80%;
+    padding: 20px;
+  }
+
+  #lani {
+    max-width: 75%;
+    padding: 20px;
   }
 }
 
