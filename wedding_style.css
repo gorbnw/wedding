@@ -19,7 +19,7 @@ keyframes blink {
 }
 
 body {
-	background-color: black;
+	background-color: #111111;
 	font-family: "Audiowide", sans-serif;
 
 }
@@ -43,25 +43,61 @@ h3 {
 h4 {
 	color: cyan;
 }
-p {
+
+.details p {
 	text-align: center;
 	size: large;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+p {
+	size: medium;
+	color: cyan;
+	font-family: arial;
 }
 
-.picture {
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	align-content: center;
+}
+
+#nav_bar {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 350px;
-	max-width: 900px;
-	width: 60%;
+	font-size: large;
+	width: 325px;
+	margin-top: 30px;
+}
+
+.faq_item {
+	padding: 8px 0px 20px 30px;
+	color: skyblue;
+}
+
+.faq_header {
+	color: cyan;
+	text-shadow: 2px 2px 9px magenta;
+}
+
+.logistics-item {
+	padding: 0px 0px 0px 30px;
+	color: skyblue;
+}
+
+.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
 }
 
 .header {
@@ -79,7 +115,6 @@ p {
 	margin-left: auto;
  	margin-right: auto;
  	margin-top: 50px;
-	cursor: pointer;
 }
 
 .ascii-desert {
@@ -97,6 +132,12 @@ p {
 		-webkit-text-fill-color: transparent;
 }
 
+.rainbow-text-menu {
+		background-image: linear-gradient(to left, cyan, lime, yellow, magenta);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+
 .details {
 	margin-top: 100px;
 	margin-bottom: 75px;
@@ -106,8 +147,17 @@ p {
 	filter: drop-shadow(0 0mm 10mm rgb(160, 0, 210));
 }
 
+.faq {
+
+}
+
+a {
+	text-decoration: none;
+	color: magenta;
+}
+
 #reveal {
-	display: none;
+	display: block;
 }
 
 .spiral {
